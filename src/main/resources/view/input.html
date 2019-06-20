@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>New order</title>
+    <link rel="stylesheet" type="text/css" href="/resources/style3.css">
+</head>
+<body>
+<script type="text/javascript"></script>
+
+<div class="header">
+    <div style="text-align: center;"><h1>Программная компания Sh&Sh</h1></div>
+</div>
+<div id="right-column">
+    <a name="1"></a>
+    <div style="text-align: center;"><h2>Создание нового проэкта</h2></div>
+    <div style="text-align: center;">
+        <h2>Новый проэкт</h2>
+    </div>
+    <form method="POST" action="/project">
+    <pre>
+        <b><label>Название проекта: <input type="text" name="name" required size="60" placeholder="Название"
+                                           id="name"></label><br/><br/></b>
+        <b><label>Описание проекта: <input type="text" name="description" required size="256" placeholder="Описание"
+                                           id="description"></label><br/><br/></b>
+        <b><label>Заказчик: <input type="text" name="customer" required size="60" placeholder="Заказчик"
+                                   id="customer"></label><br/><br/></b>
+        <b><label>Предполагаемая прибыль: <input type="text" name="profit" required size="60" placeholder="Предполагаемая прибыль"
+                                   id="profit"></label><br/><br/></b>
+        <b><label>Дата начала: <input type="datetime-local" name="start" required size="21"
+                                                           id="start"></label><br/><br/></b>
+        <b><label>Предполагаемая дата окончания: <input type="datetime-local" name="end" required size="21"
+                                                           id="end"></label><br/><br/></b>
+
+        <input type="submit" class="button" name="load" id="send" value="Отправить"/>
+        </pre>
+    </form>
+    <div id="result"></div>
+</div>
+<div id="left-column">
+    <h3>Навигация</h3>
+    <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a href="/project/add">Ввести новый проэкт</a></li>
+        <li><a href="/developer/add">Добавить разработчика</a></li>
+        <li><a href="/task/add">Создать задачу</a></li>
+        <li><a href="/search">Поиск программиста</a></li>
+        <li><a href="/project">Активные проекты</a></li>
+        <li><a href="/report">Отчеты</a></li>
+    </ul>
+</div>
+<div class="footer"><b>Спасибо что выбрали нашу компанию!</b></div>
+</body>
+</html>

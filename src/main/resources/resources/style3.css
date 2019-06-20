@@ -1,0 +1,94 @@
+i{
+	font-size: 20px;
+}
+div {
+    margin-bottom: 15px;
+    padding: 10px 25px 10px 25px;
+    background-color: #bd91e0;
+    border-radius: 35px;
+}
+#body{
+    position: absolute;
+    top: 235px; 
+    left: 985px;    
+    color: red;
+    background-color: #7c827c;
+    padding: 15px;    
+    border-radius: 30px;
+    
+}
+
+#right-column {
+    width: 70%;    
+    background-color: #9d90a7;
+    float: right;
+    font-size: 21px;
+}
+
+#left-column {
+    position: fixed;
+    width: 20%;
+    min-height: 100px;
+    background-color: #dac6e4;
+    left: 20px;    
+}
+
+.footer {
+  clear: both;  
+}
+input{
+	background-color: #cecdb9;
+	color: #fff;
+	font-size: 20px;
+} 
+.button{
+	width: 500px;
+    text-align: center;
+    vertical-align: top;    
+    box-shadow: inset 0 -14px 0 0 #a61e1e;
+    background: -webkit-gradient( linear,left top,left bottom,color-stop(0.05, #ae00ff),color-stop(1,#ed7182) );
+    background: -moz-linear-gradient( center top, #ae00ff 5%, #ed7182 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ae00ff',endColorstr='#ed7182');
+    background-color: #ae00ff;
+    border-radius: 6px;
+    border: 1px solid #595754;
+    display: inline-block;
+    color: #fffcff;
+    font-family: arial, verdana, serif;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 2px;
+    text-decoration: none;
+    text-shadow: 0 0 0 #595754;
+    overflow: hidden;
+    margin: 10px;
+  }
+.button:hover{
+    background: -webkit-gradient( linear,left top,left bottom,color-stop(0.05,#ed7182),color-stop(1,#a33b3b) );   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed7182',endColorstr='#ae00ff');
+    background-color: #ed7182;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+h2{   
+    margin-bottom: 70px;
+}
+li{
+    font-size: 20px;
+}
+#result{
+    width: 50px;
+    height: 30px;
+}
+#search{
+    width: 100%;
+    border-radius: 10px;
+}
+#searchProger{
+    width: 100%;
+    background-color: #ae00ff;
+    margin-top: 11px;  
+    border-radius: 10px;  
+}

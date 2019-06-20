@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Search</title>
+    <link rel="stylesheet" type="text/css" href="/resources/style3.css">
+</head>
+<body>
+<script type="text/javascript"></script>
+
+<div class="header">
+    <div style="text-align: center;"><h1>Программная компания Sh&Sh</h1></div>
+</div>
+<div>
+    <form method="POST" action="/search">
+    <input type="text" name="developerName" required size="21" placeholder="Имя программиста" id="developerName"/>
+    <input type="submit" name="searchProger" id="searchProger" value="Search"/>
+    </form>
+</div>
+<div id="right-column">
+    <div style="text-align: center;">
+        <h2>Список проектов программиста</h2>
+        <div>
+            <table border="2" align="center" cellspacing="4" cellpadding="4">
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Заказчик</th>
+                    <th>Предполагаемая прибыль</th>
+                    <th>Дата начала</th>
+                    <th>Предполагаемая дата конца</th>
+                </tr>
+                {{#projects}}
+                <tr>
+                    <td>{{name}}</td>
+                    <td>{{description}}</td>
+                    <td>{{customer}}</td>
+                    <td>{{profit}}</td>
+                    <td>{{start}}</td>
+                    <td>{{end}}</td>
+                </tr>
+                {{/projects}}
+            </table>
+        </div>
+        <h2>Список задач программиста</h2>
+        <div>
+            <table border="2" align="center" cellspacing="4" cellpadding="4">
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Коэффициент сложности</th>
+                </tr>
+                {{#tasks}}
+                <tr>
+                    <td>{{name}}</td>
+                    <td>{{description}}</td>
+                    <td>{{difficultyCoefficient}}</td>
+                </tr>
+                {{/tasks}}
+            </table>
+        </div>
+    </div>
+    <div id="output"></div>
+</div>
+<div id="left-column">
+    <h3>Навигация</h3>
+    <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a href="/project/add">Ввести новый проэкт</a></li>
+        <li><a href="/developer/add">Добавить разработчика</a></li>
+        <li><a href="/task/add">Создать задачу</a></li>
+        <li><a href="/search">Поиск программиста</a></li>
+        <li><a href="/project">Активные проекты</a></li>
+        <li><a href="/report">Отчеты</a></li>
+    </ul>
+</div>
+<script src="/resources/script1.js"></script>
+</body>
+</html>

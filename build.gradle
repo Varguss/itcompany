@@ -1,0 +1,36 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.5.RELEASE'
+    id 'org.liquibase.gradle' version '2.0.1'
+	id 'java'
+	id 'war'
+	id 'idea'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.diceeee'
+version = 'release'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// Spring Boot
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-mustache'
+	compileOnly 'org.springframework.boot:spring-boot-starter-tomcat'
+
+	// Database Dependencies
+	runtimeOnly 'com.h2database:h2'
+	runtimeOnly 'mysql:mysql-connector-java'
+
+	// Other Dependencies
+	compileOnly 'org.projectlombok:lombok'
+
+	// Tests
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+}

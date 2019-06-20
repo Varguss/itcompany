@@ -1,0 +1,203 @@
+2019-06-20 04:12:44.909  INFO 4544 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Starting ITCompanyApplication on Varguss with PID 4544 (started by ярослав in C:\Users\ярослав\Desktop\ITCompany)
+2019-06-20 04:12:44.911  INFO 4544 --- [main] c.j.t.ITCompany.ITCompanyApplication     : No active profile set, falling back to default profiles: default
+2019-06-20 04:12:45.568  INFO 4544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 04:12:45.636  INFO 4544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 4 repository interfaces.
+2019-06-20 04:12:46.024  INFO 4544 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8519fd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 04:12:46.387  INFO 4544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-20 04:12:46.414  INFO 4544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-20 04:12:46.414  INFO 4544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 04:12:46.547  INFO 4544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-20 04:12:46.547  INFO 4544 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1600 ms
+2019-06-20 04:12:46.749  INFO 4544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-20 04:12:46.941  INFO 4544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-20 04:12:47.008  INFO 4544 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 04:12:47.075  INFO 4544 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 04:12:47.076  INFO 4544 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-20 04:12:47.212  INFO 4544 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 04:12:47.378  INFO 4544 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 04:12:48.144  INFO 4544 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 04:12:49.190  INFO 4544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 04:12:49.294  WARN 4544 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 04:12:49.415  INFO 4544 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-20 04:12:49.599  INFO 4544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-20 04:12:49.601  INFO 4544 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Started ITCompanyApplication in 5.149 seconds (JVM running for 5.482)
+2019-06-20 04:12:57.674  INFO 4544 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 04:12:57.674  INFO 4544 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-20 04:12:57.687  INFO 4544 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-06-20 04:13:02.148  INFO 4544 --- [http-nio-8080-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-20 04:16:52.704  INFO 6108 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Starting ITCompanyApplication on Varguss with PID 6108 (started by ярослав in C:\Users\ярослав\Desktop\ITCompany)
+2019-06-20 04:16:52.709  INFO 6108 --- [main] c.j.t.ITCompany.ITCompanyApplication     : No active profile set, falling back to default profiles: default
+2019-06-20 04:16:53.417  INFO 6108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 04:16:53.493  INFO 6108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 4 repository interfaces.
+2019-06-20 04:16:53.859  INFO 6108 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$98c37a64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 04:16:54.215  INFO 6108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-20 04:16:54.243  INFO 6108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-20 04:16:54.244  INFO 6108 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 04:16:54.370  INFO 6108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-20 04:16:54.370  INFO 6108 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1624 ms
+2019-06-20 04:16:54.590  INFO 6108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-20 04:16:54.726  INFO 6108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-20 04:16:54.772  INFO 6108 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 04:16:54.885  INFO 6108 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 04:16:54.887  INFO 6108 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-20 04:16:55.047  INFO 6108 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 04:16:55.196  INFO 6108 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 04:16:55.915  INFO 6108 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 04:16:56.654  INFO 6108 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 04:16:56.696  WARN 6108 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 04:16:56.783  INFO 6108 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-20 04:16:56.914  INFO 6108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-20 04:16:56.916  INFO 6108 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Started ITCompanyApplication in 4.616 seconds (JVM running for 4.948)
+2019-06-20 04:17:11.019  INFO 6108 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 04:17:11.020  INFO 6108 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-20 04:17:11.027  INFO 6108 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-06-20 04:17:11.094  INFO 6108 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-20 04:17:51.218  INFO 7824 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Starting ITCompanyApplication on Varguss with PID 7824 (started by ярослав in C:\Users\ярослав\Desktop\ITCompany)
+2019-06-20 04:17:51.221  INFO 7824 --- [main] c.j.t.ITCompany.ITCompanyApplication     : No active profile set, falling back to default profiles: default
+2019-06-20 04:17:51.893  INFO 7824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 04:17:51.968  INFO 7824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 4 repository interfaces.
+2019-06-20 04:17:52.299  INFO 7824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb613ee6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 04:17:52.642  INFO 7824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-20 04:17:52.671  INFO 7824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-20 04:17:52.672  INFO 7824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 04:17:52.795  INFO 7824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-20 04:17:52.795  INFO 7824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1536 ms
+2019-06-20 04:17:52.996  INFO 7824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-20 04:17:53.135  INFO 7824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-20 04:17:53.183  INFO 7824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 04:17:53.248  INFO 7824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 04:17:53.249  INFO 7824 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-20 04:17:53.374  INFO 7824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 04:17:53.510  INFO 7824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 04:17:54.208  INFO 7824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 04:17:54.977  INFO 7824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 04:17:55.019  WARN 7824 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 04:17:55.112  INFO 7824 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-20 04:17:55.255  INFO 7824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-20 04:17:55.258  INFO 7824 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Started ITCompanyApplication in 4.439 seconds (JVM running for 4.757)
+2019-06-20 04:17:57.098  INFO 7824 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 04:17:57.098  INFO 7824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-20 04:17:57.106  INFO 7824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-20 04:17:57.179  INFO 7824 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-20 04:19:50.765  INFO 5080 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Starting ITCompanyApplication on Varguss with PID 5080 (started by ярослав in C:\Users\ярослав\Desktop\ITCompany)
+2019-06-20 04:19:50.768  INFO 5080 --- [main] c.j.t.ITCompany.ITCompanyApplication     : No active profile set, falling back to default profiles: default
+2019-06-20 04:19:51.409  INFO 5080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 04:19:51.478  INFO 5080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 4 repository interfaces.
+2019-06-20 04:19:51.828  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff479463] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 04:19:52.181  INFO 5080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-20 04:19:52.212  INFO 5080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-20 04:19:52.212  INFO 5080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 04:19:52.333  INFO 5080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-20 04:19:52.333  INFO 5080 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1515 ms
+2019-06-20 04:19:52.534  INFO 5080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-20 04:19:52.677  INFO 5080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-20 04:19:52.725  INFO 5080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 04:19:52.791  INFO 5080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 04:19:52.792  INFO 5080 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-20 04:19:52.918  INFO 5080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 04:19:53.053  INFO 5080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 04:19:53.754  INFO 5080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 04:19:54.513  INFO 5080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 04:19:54.553  WARN 5080 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 04:19:54.637  INFO 5080 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-20 04:19:54.769  INFO 5080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-20 04:19:54.771  INFO 5080 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Started ITCompanyApplication in 4.402 seconds (JVM running for 4.703)
+2019-06-20 04:20:36.548  INFO 5080 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 04:20:36.549  INFO 5080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-20 04:20:36.558  INFO 5080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-20 04:20:36.638  INFO 5080 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-20 04:20:47.275  INFO 5080 --- [http-nio-8080-exec-5] c.j.t.I.controller.DeveloperController   : Created developer with next data:
+Developer(id=1, name=»ван »ванович, position=“орговец наркотой, team=null, task=null)
+2019-06-20 04:21:00.706  WARN 5080 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /task/output.html
+2019-06-20 04:22:14.103  INFO 6904 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Starting ITCompanyApplication on Varguss with PID 6904 (started by ярослав in C:\Users\ярослав\Desktop\ITCompany)
+2019-06-20 04:22:14.105  INFO 6904 --- [main] c.j.t.ITCompany.ITCompanyApplication     : No active profile set, falling back to default profiles: default
+2019-06-20 04:22:14.755  INFO 6904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 04:22:14.826  INFO 6904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 4 repository interfaces.
+2019-06-20 04:22:15.141  INFO 6904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1715e116] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 04:22:15.462  INFO 6904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-20 04:22:15.487  INFO 6904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-20 04:22:15.487  INFO 6904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 04:22:15.603  INFO 6904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-20 04:22:15.603  INFO 6904 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1463 ms
+2019-06-20 04:22:15.828  INFO 6904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-20 04:22:15.988  INFO 6904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-20 04:22:16.054  INFO 6904 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 04:22:16.129  INFO 6904 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 04:22:16.130  INFO 6904 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-20 04:22:16.260  INFO 6904 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 04:22:16.404  INFO 6904 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 04:22:17.137  INFO 6904 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 04:22:17.847  INFO 6904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 04:22:17.887  WARN 6904 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 04:22:17.972  INFO 6904 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-20 04:22:18.102  INFO 6904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-20 04:22:18.104  INFO 6904 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Started ITCompanyApplication in 4.49 seconds (JVM running for 4.928)
+2019-06-20 04:22:22.000  INFO 6904 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 04:22:22.001  INFO 6904 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-20 04:22:22.009  INFO 6904 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-20 04:22:22.027  WARN 6904 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /task/output.html
+2019-06-20 04:22:27.429  WARN 6904 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'developerName' is not present]
+2019-06-20 04:23:28.608  INFO 2224 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Starting ITCompanyApplication on Varguss with PID 2224 (started by ярослав in C:\Users\ярослав\Desktop\ITCompany)
+2019-06-20 04:23:28.611  INFO 2224 --- [main] c.j.t.ITCompany.ITCompanyApplication     : No active profile set, falling back to default profiles: default
+2019-06-20 04:23:29.321  INFO 2224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 04:23:29.395  INFO 2224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 4 repository interfaces.
+2019-06-20 04:23:29.764  INFO 2224 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54296c56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 04:23:30.134  INFO 2224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-20 04:23:30.169  INFO 2224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-20 04:23:30.169  INFO 2224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 04:23:30.290  INFO 2224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-20 04:23:30.290  INFO 2224 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1640 ms
+2019-06-20 04:23:30.543  INFO 2224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-20 04:23:30.696  INFO 2224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-20 04:23:30.753  INFO 2224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 04:23:30.815  INFO 2224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 04:23:30.817  INFO 2224 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-20 04:23:30.957  INFO 2224 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 04:23:31.104  INFO 2224 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 04:23:31.814  INFO 2224 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 04:23:32.550  INFO 2224 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 04:23:32.592  WARN 2224 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 04:23:32.685  INFO 2224 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-20 04:23:32.813  INFO 2224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-20 04:23:32.815  INFO 2224 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Started ITCompanyApplication in 4.624 seconds (JVM running for 4.921)
+2019-06-20 04:23:38.260  INFO 2224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 04:23:38.261  INFO 2224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-20 04:23:38.269  INFO 2224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-20 04:23:43.152  WARN 2224 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-06-20 04:25:13.780  INFO 3644 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Starting ITCompanyApplication on Varguss with PID 3644 (started by ярослав in C:\Users\ярослав\Desktop\ITCompany)
+2019-06-20 04:25:13.785  INFO 3644 --- [main] c.j.t.ITCompany.ITCompanyApplication     : No active profile set, falling back to default profiles: default
+2019-06-20 04:25:14.608  INFO 3644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 04:25:14.689  INFO 3644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 4 repository interfaces.
+2019-06-20 04:25:15.160  INFO 3644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c54788c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 04:25:15.516  INFO 3644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-20 04:25:15.541  INFO 3644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-20 04:25:15.541  INFO 3644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 04:25:15.669  INFO 3644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-20 04:25:15.669  INFO 3644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1845 ms
+2019-06-20 04:25:15.875  INFO 3644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-20 04:25:16.020  INFO 3644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-20 04:25:16.068  INFO 3644 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 04:25:16.140  INFO 3644 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 04:25:16.143  INFO 3644 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-20 04:25:16.282  INFO 3644 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 04:25:16.419  INFO 3644 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 04:25:17.128  INFO 3644 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 04:25:17.900  INFO 3644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 04:25:17.943  WARN 3644 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 04:25:18.038  INFO 3644 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-20 04:25:18.178  INFO 3644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-20 04:25:18.194  INFO 3644 --- [main] c.j.t.ITCompany.ITCompanyApplication     : Started ITCompanyApplication in 4.836 seconds (JVM running for 5.136)
